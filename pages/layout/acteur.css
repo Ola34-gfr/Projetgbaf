@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/OpenSans-Light-webfont.eot');
+    src: url('fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Light-webfont.woff2') format('woff2'),
+         url('fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'open_sanslight', "Arial Black", Arial, Verdana, Georgia;
+    margin: auto;
+    width: 50%;
+}
+
+#commentaire{
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    border: 1px black solid;
+    padding: 5px;
+}
+
+#like-dislike{
+    background-color: aquamarine;
+    border: 1px black solid;
+    padding: 1px;
+    margin: 1px;
+    width: 20px;
+    position: relative;
+    left: 95%;
+}
+
+.pdt_1{ 
+    border: 1px black solid;
+    padding: 10px;
+    margin: 5px;
+    background-color: coral;
+}
+
+.pdt_2{ 
+    border: 1px black solid;
+    padding: 10px;
+    margin: 5px;
+    background-color: yellowgreen;
+}
+
+.pdt_3{ 
+    border: 1px black solid;
+    padding: 10px;
+    margin: 5px;
+    background-color: blueviolet;
+}
+
+#deconnect {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+#user-info{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+#commentaire
+{
+	display: flex;
+	flex-direction: column;
+	border-color: black;
+}
+
+header {
+    border-bottom: 1px black solid;
+    margin-top: 5%;
+}
+
+input[type=submit] {
+    background-color: #A9AAAB;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #A9AAAB;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+}
+
+#contact
+{
+	display: inline;
+}
+
+#haut_de_page
+{
+    width:800px;
+    margin:0 auto;
+    margin-top:5%;
+}
+
+#corps_de_page  
+{margin-left: 164px; /*le corps doit laisser une marge de 164px à sa gauche.*/  
+ margin-right: 164px; /*le corps doit laisser une marge de 164px à sa droite.*/  
+text-align: justify;/*alignement du texte justifié*/  
+background-color: white; 
+margin: 8px 0;
+padding: 12px 20px;
+border: 1px solid rgb(0 0 0 / 50%);
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: space-around;
+} 
+
+#pied_de_page{
+	text-align: center;
+	border-top: 1px solid;
+	margin-top: 3%;
+}
